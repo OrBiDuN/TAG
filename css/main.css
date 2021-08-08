@@ -16,6 +16,10 @@ html {
 	background-color: #e8e0bd;
 
 }
+html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
 @media all and (max-width: 470px) {
   #page {
     	overflow-x:hidden; 
